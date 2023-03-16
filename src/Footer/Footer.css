@@ -1,0 +1,21 @@
+.footer {
+    margin-top: 10px;
+    
+}
+
+.footer-mb {      
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    border-top:1px solid #a09f9f; */
+    background-color: rgb(23, 89, 151);
+    color: rgb(197, 194, 194);
+}
+.footer-mbb {    
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    border-top:1px solid #a09f9f; */
+    background-color: rgb(23, 89, 151);
+    color: rgb(197, 194, 194);
+}
