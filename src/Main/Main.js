@@ -11,15 +11,21 @@ function Main() {
     <>
       <Container fluid>
         <Row>
-          <div className="main-mb">
+          <div>
             <body>
               <Row>
                 <Col sm={8}>
                   <div className="page-content">
-                    <h3>
+                    <h3 className="page-content-title">
                       Цінуйте моменти життя, до того як вони станут спогодами.
                     </h3>
-                    <h6 style={{ textAlign: "start" }}>
+                    <h6
+                      style={{
+                        textAlign: "start",
+                        fontStyle: "italic",
+                        fontWeight: "bold",
+                      }}
+                    >
                       Німецький поет Г. Гайне сказав: “Кожна людина – це
                       неповторний світ. Під кожною могильною плитою – світова
                       історія”. Ми різні: ми по-різному сприймаємо обставини
@@ -57,20 +63,45 @@ function Main() {
               <Row>
                 <Col sm={8}>
                   <div className="page-content">
-                    <h3>
+                    <h3 className="page-content-title">
                       Цінуйте моменти життя, до того як вони станут спогодами.
                     </h3>
-                    <h6 style={{ textAlign: "start", textDecoration: "none" }}>
-                      <p>
+                    <h6
+                      style={{
+                        textAlign: "start",
+                      }}
+                    >
+                      <p
+                        style={{
+                          textAlign: "start",
+                          fontStyle: "italic",
+                          fontWeight: "bold",
+                        }}
+                      >
                         Ми пропонуємо зберегти пам'ять про близьких і рідних
                         людей в сучасному форматі
                       </p>
-                      <p>
+                      <p
+                        style={{
+                          textAlign: "start",
+                          fontStyle: "italic",
+                          fontWeight: "bold",
+                        }}
+                      >
                         Щоб відвідавши місце спокою, або просто за допомогою
                         коп'ютера згадати про кожного з нас, та надати
                         можливість "цифрового безмерття".
                       </p>
-                      <p> Це те саме найменьше, що прагне людина.</p>
+                      <p
+                        style={{
+                          textAlign: "start",
+                          fontStyle: "italic",
+                          fontWeight: "bold",
+                        }}
+                      >
+                        {" "}
+                        Це те саме найменьше, що прагне людина.
+                      </p>
                     </h6>
                   </div>
                 </Col>
@@ -93,10 +124,16 @@ function Main() {
               <Row>
                 <Col sm={8}>
                   <div className="page-content">
-                    <h3>
+                    <h3 className="page-content-title">
                       Цінуйте моменти життя, до того як вони станут спогодами.
                     </h3>
-                    <h6 style={{ textAlign: "start" }}>
+                    <h6
+                      style={{
+                        textAlign: "start",
+                        fontStyle: "italic",
+                        fontWeight: "bold",
+                      }}
+                    >
                       Німецький поет Г. Гайне сказав: “Кожна людина – це
                       неповторний світ. Під кожною могильною плитою – світова
                       історія”. Ми різні: ми по-різному сприймаємо обставини
